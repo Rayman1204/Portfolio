@@ -25,14 +25,14 @@ svg{
 :root{
   /* Light Theme Variables */
   --color-text-light: #333332;
-  --color-background-light: #FAF4E5;
-  --color-pink-light: #e5a1aa;
-  --color-green-light: #7AD0AC;
-  --color-blue-light: #8395CD;
+  --color-background-light: #00D7FF;
+  --color-pink-light: #0096FF;
+  --color-green-light: #72FFFF;
+  --color-blue-light: #5800FF;
 
   /* Dark Theme Variables */
-  --color-text-dark: #FAF4E5;
-  --color-background-dark: #8395CD;
+  --color-text-dark: #f7dd9c;
+  --color-background-dark: #37067d;
 }
 
 .light-theme{
@@ -50,8 +50,6 @@ svg{
   --color-green: var(--color-text-dark);
   --color-blue: var(--color-text-dark);
 }
-
-/* Experience --------------------------------------------- */
 
 .experience{
   position: fixed;
