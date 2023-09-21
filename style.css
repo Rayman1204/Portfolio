@@ -28,11 +28,11 @@ svg{
   --color-background-light: #00D7FF;
   --color-pink-light: #0096FF;
   --color-green-light: #72FFFF;
-  --color-blue-light: #5800FF;
+  --color-blue-light: #1c1ce2;
 
   /* Dark Theme Variables */
-  --color-text-dark: #f7dd9c;
-  --color-background-dark: #37067d;
+  --color-text-dark: #f8f6f2;
+  --color-background-dark: #3b0389;
 }
 
 .light-theme{
@@ -96,7 +96,7 @@ svg{
   border-radius: 50%;
   margin: 6px;
   background-color: var(--color-pink-light);
-  animation: load 1s ease-in-out infinite;
+  animation: load 0.5s ease-in-out linear;
 }
 
 .circle:nth-child(2){
@@ -104,7 +104,7 @@ svg{
 }
 
 .circle:nth-child(3){
-  animation-delay: 0.2s;
+  animation-delay: 0.1s;
 }
 
 @keyframes load {
@@ -160,7 +160,7 @@ svg{
   opacity: 0;
   color: var(--color-text);
   transform: translate(-50%, -50%);
-  animation: bounce 0.5s ease-in alternate infinite;
+  animation: bounce 0.2s ease-in alternate infinite;
 }
 
 @keyframes bounce {
@@ -207,7 +207,7 @@ svg{
   border-radius: 999px;
   margin: 0px 16px;
   border: none;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(94, 96, 97, 0.2) 0px 8px 24px;
 }
 
 .toggle-circle{
@@ -217,7 +217,7 @@ svg{
   width: 20px;
   height: 20px;
   background-color: var(--color-background);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .toggle-button:hover .toggle-circle{
