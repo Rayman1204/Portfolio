@@ -63,7 +63,7 @@ export default class Environment {
                 intensity: 0.78,
             });
             GSAP.to(this.ambientLight, {
-                intensity: 0.78,
+                intensity: 0.88,
             });
         } else {
             GSAP.to(this.sunLight.color, {
